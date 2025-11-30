@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>351</width>
+      <height>470</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QTableWidget" name="tableNeed"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLineEdit" name="lineProcesses">
+       <property name="placeholderText">
+        <string>Enter number of resources </string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelProcesses">
+       <property name="text">
+        <string>Processes:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLineEdit" name="lineResources">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Enter number of processes </string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QTableWidget" name="tableAllocation"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelResources">
+       <property name="text">
+        <string>Resources:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="btnCreateTables">
+       <property name="text">
+        <string>Create Tables</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QTextEdit" name="textOutput">
+       <property name="accessibleIdentifier">
+        <string comment="textOutput"/>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QTableWidget" name="tableMax"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="btnCheckSafe">
+       <property name="text">
+        <string>Check Safe Sequence</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QPushButton" name="Reset">
+       <property name="text">
+        <string>Reset</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="btnAutoFill">
+       <property name="text">
+        <string>btnAutoFill</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
