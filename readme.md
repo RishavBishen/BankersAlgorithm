@@ -75,3 +75,25 @@ Use `cd` command:
 
 ```bash
 cd path/to/your/project
+
+Linux/Mac:
+cd ~/Desktop/myproject
+Check files:
+ls (or dir on Windows)
+```
+### 🔹 Step 4: Compile the Program
+
+This converts your .cpp files into an executable.
+✅ If your project has only one .cpp file:
+```bash
+g++ main.cpp -o myapp
+```
+✅ If your project has multiple .cpp files:
+```bash
+g++ *.cpp -o myapp
+```
+If there are no errors, the compiler will generate:
+```bash
+myapp.exe (Windows)
+myapp (Linux/Mac)
+```
