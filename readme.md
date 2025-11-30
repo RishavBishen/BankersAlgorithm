@@ -1,6 +1,6 @@
 ## 📌 Can this project run outside Qt Creator?
 
-### ✔ Yes — it can run on any system with a C++ compiler.
+### ✔ Yes, it can run on any system with a C++ compiler.
 
 Even though the project was created in **Qt Creator**, the code is still just **standard C++**, so it can run in any terminal or IDE.
 
