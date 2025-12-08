@@ -69,6 +69,7 @@ MainWindow::MainWindow(QWidget *parent)
         logoLabel->setAlignment(Qt::AlignCenter);
         logoLabel->setStyleSheet("font-size: 20px; color: cyan; letter-spacing: 1px; margin-bottom: 10px;");
     }
+    //Logo end
 
     // 3. LAYOUT DESIGN
     QWidget *centralWidget = new QWidget(this);
@@ -409,7 +410,6 @@ void MainWindow::on_btnCheckSafe_clicked()
                     for (int j = 0; j < resources; j++) {
                         available[j] += alloc[p][j];
                     }
-
                     safeSeq.push_back(p);
                     finished[p] = true;
                     found = true;
